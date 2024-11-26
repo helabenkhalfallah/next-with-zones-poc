@@ -1,0 +1,20 @@
+{
+  "name": "next-with-zones-poc",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "author": "Hela Ben Khalfallah",
+  "description": "POC to assess Next JS Multi Zones feature",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helabenkhalfallah/next-with-zones-poc"
+  },
+  "scripts": {
+    "dev": "pnpm --stream -r run dev",
+    "build": "pnpm --stream -r run build",
+    "lint": "pnpm --stream -r run lint",
+    "lint:fix": "pnpm --stream -r run lint:fix",
+    "test": "pnpm --stream -r run test"
+  },
+  "devDependencies": {}
+}
